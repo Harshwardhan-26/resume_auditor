@@ -132,5 +132,7 @@ async def process_resume(file: UploadFile = File(...)):
     return audit_resume(resume_text)
 
 if __name__ == "__main__":
-    print("🚀 STARTING SERVER ON PORT 8000...")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import os
+    port = int(os.environ.get("PORT", 8000))
+    print(f"🚀 STARTING SERVER ON PORT {port}...")
+    uvicorn.run(app, host="0.0.0.0", port=port)

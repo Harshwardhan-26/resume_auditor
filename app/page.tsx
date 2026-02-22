@@ -24,7 +24,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8000/audit", {
+      const response = await fetch("https://resume-auditor.onrender.com", {
         method: "POST",
         body: formData,
       });

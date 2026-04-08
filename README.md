@@ -1,18 +1,18 @@
-# ResumeIQ 🚀 | AI-Powered Resume Auditor
+# ResumeIQ  | AI-Powered Resume Auditor
 
 **ResumeIQ** is a full-stack, AI-driven resume analysis tool designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). By leveraging Natural Language Processing (NLP) and a decoupled cloud architecture, the platform provides real-time scoring, skill categorization, and actionable "Before vs. After" improvement suggestions.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 🧠 Intelligent Analysis (Backend)
+###  Intelligent Analysis (Backend)
 * **ATS Compatibility Scoring:** Evaluates resumes based on formatting, contact information, and impact density.
 * **Job Role Classifier:** Uses keyword-density logic to predict the user's career path (e.g., AI/ML Engineer, Web Developer).
 * **Skill Profile Categorization:** Automatically groups detected keywords into Technical Skills, Soft Skills, and Industry Knowledge.
 * **Impact Quantification:** Identifies missing metrics and provides specific suggestions to turn duty-focused bullets into results-oriented achievements.
 
-### 💻 Modern User Experience (Frontend)
+###  Modern User Experience (Frontend)
 * **Real-time Audit Dashboard:** Interactive radial charts and checklists showing scan progress and results.
 * **Dark/Light Mode:** A polished, glassmorphic UI with theme persistence.
 * **Downloadable Reports:** Generates a professional PDF analysis report directly in the browser for offline use.
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 
 ---
 
-## 📐 System Architecture
+##  System Architecture
 
 ResumeIQ follows a **Decoupled Client-Server Architecture**:
 
@@ -44,7 +44,7 @@ ResumeIQ follows a **Decoupled Client-Server Architecture**:
 
 ---
 
-## 🚀 Deployment Details
+##  Deployment Details
 
 The project is live at: **[Insert Your Netlify URL Here]**
 
@@ -54,7 +54,7 @@ The project is live at: **[Insert Your Netlify URL Here]**
 
 ---
 
-## ⚙️ Local Setup
+##  Local Setup
 
 ### Backend (Python)
 1. Navigate to the root folder.
@@ -67,12 +67,12 @@ The project is live at: **[Insert Your Netlify URL Here]**
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Harshwardhan Goyal**
 * B.Tech Student
 * Focus: Machine Learning & CyberSecurity
 
 ---
 
-## 📜 License
+##  License
 This project is for educational purposes.
